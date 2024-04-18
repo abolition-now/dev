@@ -3,7 +3,9 @@
   "devCollection": "https://raw.githubusercontent.com/markpbaggett/static_iiif/main/collections/abolition-now.json",
   "featured": [
     "https://raw.githubusercontent.com/markpbaggett/static_iiif/main/manifests/abolition_now/0028_abolitionwithbarbedwire.json",
-    "https://raw.githubusercontent.com/markpbaggett/static_iiif/main/manifests/abolition_now/0089_waterismedicine.json"
+    "https://raw.githubusercontent.com/markpbaggett/static_iiif/main/manifests/abolition_now/0089_waterismedicine.json",
+    "https://raw.githubusercontent.com/markpbaggett/static_iiif/main/manifests/abolition_now/0210_0211_restinpower.json",
+    "https://raw.githubusercontent.com/markpbaggett/static_iiif/main/manifests/abolition_now/0148_abolitionpigcop.json"
   ],
   "metadata": ["Subject", "Artist", "Slogans", "Visual Motifs", "Date", "Geography", "People", "Medium", "Photographer"],
   "summary": {
