@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://abolition-now.github.io/an
+Host: https://abolition-now.github.io/dev
 
 # Sitemaps
-Sitemap: https://abolition-now.github.io/an/sitemap.xml
+Sitemap: https://abolition-now.github.io/dev/sitemap.xml
