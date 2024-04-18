@@ -1,15 +1,18 @@
 //@ts-nocheck
 
+import * as RadixThemes from "@radix-ui/themes";
+
 import { MDXRemote, MDXRemoteProps } from "next-mdx-remote";
 
-import Blockquote from "@components/Shared/Markdown/Blockquote";
 import Button from "@components/Shared/Button/Button";
 import { ButtonWrapper } from "@components/Shared/Button/Button.styled";
 import Card from "@components/MDX/Card";
 import Code from "@components/Shared/Code/Code";
 import { CodeInline } from "@components/Shared/Code/Code.styled";
 import Heading from "@components/Shared/Heading/Heading";
+import Image from "@components/MDX/Image";
 import ReferencedItems from "@src/components/MDX/ReferencedItems";
+import Scroll from "@components/MDX/Scroll";
 import Slider from "@components/MDX/Slider";
 import Viewer from "@components/MDX/Viewer";
 import { getSlug } from "@src/lib/build/slug";
@@ -21,7 +24,9 @@ const customComponents = {
   Button,
   ButtonWrapper,
   Card,
+  Image,
   ReferencedItems,
+  Scroll,
   Slider,
   Viewer,
 };
@@ -36,7 +41,10 @@ const components = {
   h4: (props) => <Heading as="h4" {...props} />,
   h5: (props) => <Heading as="h5" {...props} />,
   code: (props) => <CodeInline {...props} />,
-  blockquote: (props) => <Blockquote {...props} />,
+  a: (props) => <RadixThemes.Link {...props} />,
+  em: (props) => <RadixThemes.Em {...props} />,
+  strong: (props) => <RadixThemes.Strong {...props} />,
+  blockquote: (props) => <RadixThemes.Blockquote {...props} />,
   pre: (props) => {
     const string = props?.children?.props?.children;
     const language = props?.children?.props?.className?.replace(
