@@ -28,9 +28,9 @@
   },
   "theme": {
     "defaultTheme": "light",
-    "accentColor": "teal",
-    "grayColor": "sage",
-    "radius": "small",
+    "accentColor": "red",
+    "grayColor": "mauve",
+    "radius": "none",
     "scaling": "100%"
   }
 }
