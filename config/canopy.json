@@ -1,6 +1,6 @@
 {
-  "collection": "https://raw.githubusercontent.com/markpbaggett/static_iiif/main/collections/abolition-now.json",
-  "devCollection": "https://raw.githubusercontent.com/markpbaggett/static_iiif/main/collections/abolition-now.json",
+  "collection": "https://abolition-now.github.io/manifests/collections/abolition-now.json",
+  "devCollection": "https://abolition-now.github.io/manifests/collections/abolition-now.json",
   "featured": [
     "https://raw.githubusercontent.com/markpbaggett/static_iiif/main/manifests/abolition_now/0028_abolitionwithbarbedwire.json",
     "https://raw.githubusercontent.com/markpbaggett/static_iiif/main/manifests/abolition_now/0089_waterismedicine.json",
